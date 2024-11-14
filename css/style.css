@@ -1,0 +1,41 @@
+h1{
+    color: azure;
+}
+/* table tr th{
+    padding: 8px;
+} */
+.tab  table tr td,th{
+padding: 8px;
+border: 1px solid black;
+width: 200px;
+}
+
+@media screen and (max-width:650px) {
+    .tab table tr td,th{
+        text-align: center;
+        padding: 3px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 4px;
+      
+    }
+    #img1{
+        height: 50px;
+        width: 50px;
+    }
+   #img2 {
+    height: 50px;
+    width: 50px;
+   }
+   #img3 {
+    height: 50px;
+    width: 50px;
+   }
+   #img4 {
+    height: 50px;
+    width: 50px;
+   }
+   #img5 {
+    height: 50px;
+    width: 50px;
+   }
+}
